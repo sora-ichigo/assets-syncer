@@ -10,6 +10,10 @@ file = File.open(LOG_OUT, 'r+')
 
 logger = Logger.new(file)
 
+logger.info('pull s3 objects.')
+
+system('./pull_images.sh')
+
 logger.info('starting sync...')
 
 loop do
