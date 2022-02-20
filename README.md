@@ -3,12 +3,12 @@
 
 
 igsr5's assets sync between local and s3.  
-指定のローカルディレクトリに画像を置くだけで https://images.igsr5.com から配信できる。
+指定のローカルディレクトリに画像を置くだけで https://images.igsr5.com/l/ から配信できる。
 
 
 ![trim D9D9155D-3004-4BF2-9E2D-1481599842FE 2](https://user-images.githubusercontent.com/66525257/154830179-acccf9bf-9d2e-4fd5-847c-ff5b104279e4.gif)
 
-→ https://images.igsr5.com/profile.png で公開
+→ https://images.igsr5.com/l/profile.png で公開
 
 
 
@@ -20,7 +20,7 @@ igsr5's assets sync between local and s3.
 - [job/sync_s3.rb](https://github.com/igsr5/igsr5-assets/blob/master/job/sync_s3.rb) 上記のスクリプトを定期実行
 
 同期した s3 バケットは CloudFront 経由で配信している。
-サンプル画像 https://images.igsr5.com/sample.png
+サンプル画像 https://images.igsr5.com/l/sample.png
 
 詳しいインフラ構成は [docs/インフラ構成](https://github.com/igsr5/igsr5-assets/blob/master/docs/infra.md) に書いてある。
 
