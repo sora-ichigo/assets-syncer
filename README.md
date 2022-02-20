@@ -22,7 +22,7 @@ igsr5's assets sync between local and s3.
 同期した s3 バケットは CloudFront 経由で配信している。
 サンプル画像 https://images.igsr5.com/sample.png
 
-詳しいインフラ構成は OO に書いてある。
+詳しいインフラ構成は [docs/インフラ構成](https://github.com/igsr5/igsr5-assets/blob/master/docs/infra.md) に書いてある。
 
 ## 📝 Development
 :one: `.env.sample` をコピーして `.env` を作成し、環境変数を記述する.
