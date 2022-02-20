@@ -17,8 +17,8 @@ igsr5's assets sync between local and s3.
 `aws s3 sync` を実行するスクリプトを docker コンテナ内で定期実行している。
 
 - [sync_images.sh](https://github.com/igsr5/igsr5-assets/blob/master/sync_images.sh) `aws s3 sync` を実行
-  - 📝 スクリプト開始時に s3 バケット内のオブジェクトをローカルに sync する
 - [job/sync_s3.rb](https://github.com/igsr5/igsr5-assets/blob/master/job/sync_s3.rb) 上記のスクリプトを定期実行
+  - 📝 ジョブ開始時に s3 バケット内のオブジェクトをローカルに sync する
 
 同期した s3 バケットは CloudFront 経由で配信している。
 サンプル画像 https://images.igsr5.com/l/sample.png
