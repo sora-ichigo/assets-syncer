@@ -33,7 +33,7 @@ igsr5's assets sync between local and s3.
 $ docker compose up -d
 ```
 
-:three: `./images` に適当な画像を置いて `https://images.igsr5.com/OOO` (OOO はファイル名) でアクセスできれば OK :tada:
+:three: `./images` に適当な画像を置いて `https://images.igsr5.com/l/OOO` (OOO はファイル名) でアクセスできれば OK :tada:
   - もし画像が表示されなければ、`/logs/stdout.log` を確認する。
 
 
