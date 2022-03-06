@@ -19,6 +19,8 @@ logger.info('starting sync...')
 loop do
   system('./sync_images.sh')
 
+  sleep 5
+
 rescue StandardError => e
   logger.error(e)
   break
